@@ -1,0 +1,14 @@
+# 基于预训练模型的中文文本情感分析与信息抽取系统 - 依赖
+torch>=2.10
+transformers>=5.0
+datasets
+jieba
+scikit-learn
+pandas
+numpy
+matplotlib
+wordcloud
+streamlit
+seqeval
+joblib
+accelerate

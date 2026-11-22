@@ -1,0 +1,22 @@
+# 训练好的模型权重(体积过大,不提交,可通过脚本重新训练)
+models/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 数据解压产生的临时大文件
+data/raw/*.jsonl
+
+# 其他
+.claude/
+node_modules/
+*.log
+.DS_Store
+
+# 个人隐私:实验报告和界面截图
+report/*.docx
+report/*截图*.png
